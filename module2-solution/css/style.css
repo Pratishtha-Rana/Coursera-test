@@ -20,15 +20,16 @@ h1{
 h3{
 	position: absolute;
 	top:0px;
-  	right:0px;
-  	border-left: 2px solid #000;
-  	border-bottom: 2px solid #000;
-  	padding: 6px 50px;
+  right:0px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  
 }
 
 p{
 	margin-top: 35px;
 	font-size:100%;
+
 }
 
 #title1{
@@ -49,15 +50,14 @@ section{
 	top: 50px;
 	width: 90%;
 	background: lightgrey;
-  margin-right:15px;
-  margin-bottom:15px;
-  height: 150px;
-  
+  margin-right:7px;
+  margin-bottom:7px;
 }
 
 .row{
 	width: 100%;
 }
+
 /********** Large devices(Desktop screen) **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -122,7 +122,7 @@ section{
       width: 41.66%;
     }
     .col-md-6 {
-      width: 48.23%;
+      width:48.7%;
     }
     .col-md-7 {
       width: 58.33%;
@@ -140,7 +140,7 @@ section{
       width: 91.66%;
     }
     .col-md-12 {
-      width: 100%;
+      width: 98.2%;
     }
 }
 
