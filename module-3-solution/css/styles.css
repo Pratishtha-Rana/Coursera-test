@@ -2,7 +2,7 @@ body{
   background-color:lightpink;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
-  margin: 0px;
+  margin:0px;
 }
 
 .navbar{
@@ -30,7 +30,13 @@ body{
   text-decoration: none; /*to avoid the underlining of the text*/
 }
 
-
+.menu-item{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color:lightpink;
+  border-bottom: 1px solid black;
+}
 /*Main Content*/
 
 
@@ -63,55 +69,3 @@ section{
   padding: 0 5px 0 5px;
 }
 
-
-
-/*.navbar-brand {
-  padding-top: 25px;
-}*/
-
-/*
-body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
-}
-#header-nav {
-  background-color: #f6b319;
-  border-radius: 0;
-  border: 0;
-}
-body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
-}
-.navbar-brand h1 {  Restaurant name 
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-.navbar-brand {
-  padding-top: 25px;
-}
-*/
-
-/*
-#collapsable-nav a { /* Collapsed nav menu text */
-  /*  font-size: 1.2em;
-  }
-  #collapsable-nav a span {  Collapsed nav menu glyph 
-    font-size: 1em;
-    margin-right: 5px;
-  }
-*/
